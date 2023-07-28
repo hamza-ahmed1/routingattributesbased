@@ -27,32 +27,32 @@ namespace routingattributesbased.controller
 
     //}
 
-    
+    //Changes
 
-    [Route("Home")]
+   // [Route("Home")]
    
-    public class HomeController : Controller
-    {
-        [Route("~/")]
-        [Route("")]
-        [Route("Index")]
+    //public class HomeController : Controller
+    //{
+    //    [Route("~/")]
+    //    [Route("")]
+    //    [Route("Index")]
        
-        public IActionResult Index()
-        {
-            return View();
-        }
+    //    public IActionResult Index()
+    //    {
+    //        return View();
+    //    }
 
-        [Route("About")]
-        public IActionResult About()
-        {
-            return View();
-        }
+    //    [Route("About")]
+    //    public IActionResult About()
+    //    {
+    //        return View();
+    //    }
 
-        [Route("GetEmpById/{Id?}")]
-        public int GetEmpById(int? Id)
-        {
-            return Id ?? 1;
-        }
+    //    [Route("GetEmpById/{Id?}")]
+    //    public int GetEmpById(int? Id)
+    //    {
+    //        return Id ?? 1;
+    //    }
 
-    }
+    //}
 }
